@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  
   // Handle participant removal via event delegation
   activitiesList.addEventListener("click", async (event) => {
     const button = event.target.closest(".remove-participant");
