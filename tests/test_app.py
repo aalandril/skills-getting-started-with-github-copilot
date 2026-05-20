@@ -7,7 +7,6 @@ from src.app import app, activities
 
 INITIAL_ACTIVITIES = copy.deepcopy(activities)
 
-
 @pytest.fixture(autouse=True)
 def reset_activities():
     activities.clear()
